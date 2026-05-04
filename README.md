@@ -30,18 +30,22 @@ npm run build
 
 ## Structure du projet
 
-Seuls deux fichiers sont à modifier pour créer votre propre histoire :
+Un seul fichier est à modifier pour créer votre propre histoire :
 
 ```
 src/
 ├── routes/
-│   └── +page.svelte      ← votre article (texte + appel au composant)
+│   └── +page.svelte      ← VOTRE article (texte + appel au composant) — c'est ici que tout se passe
 └── lib/
-    └── Scrolly.svelte    ← le composant scrollytelling (à ne pas modifier en général)
+    └── Scrolly.svelte    ← le composant scrollytelling — NE PAS MODIFIER
 ```
 
-Les autres fichiers (`app.html`, `app.css`, `+layout.svelte`, configs) sont la
-plomberie SvelteKit et n'ont pas besoin d'être touchés.
+Le fichier [`src/app.css`](src/app.css) peut éventuellement être modifié pour
+personnaliser l'apparence générale (police, couleurs, largeur de colonne) —
+voir la section [Personnaliser l'apparence](#personnaliser-lapparence) plus bas.
+
+Les autres fichiers (`app.html`, `+layout.svelte`, configs) sont la plomberie
+SvelteKit et n'ont pas besoin d'être touchés.
 
 ---
 
