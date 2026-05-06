@@ -5,7 +5,7 @@
 
 	const Steps = [
 		"En 1950, les émissions mondiales de <mark>CO₂</mark> atteignaient environ 6 milliards de tonnes par an.",
-		"Dans les années 1980, ce chiffre avait <mark>triplé</mark>, dépassant les 19 milliards de tonnes annuelles.",
+		"Dans les années 1980, ce chiffre avait <span style='background-color: red; color: white; font-weight: bold; border-radius: 4px; padding: 0 0.25em;'>triplé</span>, dépassant les 19 milliards de tonnes annuelles.",
 		"Aujourd'hui, nous émettons plus de <mark>36 milliards de tonnes</mark> de CO₂ chaque année.",];
 </script>
 
