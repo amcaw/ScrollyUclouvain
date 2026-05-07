@@ -10,11 +10,16 @@
 </script>
 
 <div class="article">
-	<h2>Un exemple de scrollytelling avec Flourish</h2>
-	<p>
-		Voici une démonstration simple de la combinaison entre un observateur de défilement en Svelte
-		et une story Flourish intégrée. Au fur et à mesure que le lecteur fait défiler les panneaux de
-		texte à gauche, la visualisation à droite avance vers la diapositive correspondante.
+	<h1>Ceci est le titre principal de l'article</h1>
+	<p class="byline">
+		Par <strong>John Doe</strong>, <strong>Jane Doe</strong> et <strong>Michel Doe</strong>
+		<span class="byline-sep">—</span>
+		<time datetime="2026-05-07">7 mai 2026</time>
+	</p>
+	<p class="lede">
+		Ceci est le chapeau avec du texte lorem ipsum. Lorem ipsum dolor sit amet, consectetur
+		adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+		minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 	</p>
 </div>
 
@@ -23,8 +28,43 @@
 <div class="article">
 	<h2>La suite</h2>
 	<p>
-		L'article continue sous la section interactive. Ce format permet d'alterner entre du contenu
-		éditorial classique et des visualisations de données immersives, maintenant l'attention du
-		lecteur tout au long du récit.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+		laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</p>
+
+	<figure>
+		<img src="/burger_2.png" alt="Illustration d'un burger" />
+		<figcaption>Légende de l'image : un délicieux burger en illustration.</figcaption>
+	</figure>
+
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+		laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+		voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<aside class="methodology">
+		<h3>Comment avons-nous travaillé ?</h3>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+			ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+		<p>
+			<a href="/methodologie">Retrouvez notre méthodologie complète en cliquant ici</a>
+		</p>
+	</aside>
+
+	<footer class="credits">
+		<p class="credits-authors">
+			Un article de <strong>John Doe</strong>, <strong>Jane Doe</strong> et
+			<strong>Michel Doe</strong>.
+		</p>
+	</footer>
+
 </div>
