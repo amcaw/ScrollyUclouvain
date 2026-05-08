@@ -16,7 +16,7 @@
 		<span class="byline-sep">—</span>
 		<time datetime="2026-05-07">7 mai 2026</time>
 	</p>
-	<p class="lede">
+	<p class="intro">
 		Ceci est le chapeau avec du texte lorem ipsum. Lorem ipsum dolor sit amet, consectetur
 		adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 		minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -47,24 +47,23 @@
 		voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
 		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</p>
+</div>
 
-	<aside class="methodology">
-		<h3>Comment avons-nous travaillé ?</h3>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-			ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		</p>
-		<p>
-			<a href="/methodologie">Retrouvez notre méthodologie complète en cliquant ici</a>
-		</p>
-	</aside>
+<div class="methodology">
+	<h3>Comment avons-nous travaillé ?</h3>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+		ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+		ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	</p>
+	<p>
+		<a href="/methodologie">Retrouvez notre méthodologie complète en cliquant ici</a>
+	</p>
+</div>
 
-	<footer class="credits">
-		<p class="credits-authors">
-			Un article de <strong>John Doe</strong>, <strong>Jane Doe</strong> et
-			<strong>Michel Doe</strong>.
-		</p>
-	</footer>
-
+<div class="credits">
+	<p>
+		Un article de <strong>John Doe</strong>, <strong>Jane Doe</strong> et
+		<strong>Michel Doe</strong>.
+	</p>
 </div>
