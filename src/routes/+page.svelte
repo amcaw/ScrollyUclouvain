@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Scrolly from '$lib/Scrolly.svelte';
 
 	const FlourishID = 3279466;
@@ -36,7 +37,7 @@
 	</p>
 
 	<figure>
-		<img src="/burger_2.png" alt="Illustration d'un burger" />
+		<img src="{base}/burger_2.png" alt="Illustration d'un burger" />
 		<figcaption>Légende de l'image : un délicieux burger en illustration.</figcaption>
 	</figure>
 
